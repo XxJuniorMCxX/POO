@@ -1,10 +1,10 @@
-package Clase1;
+package Clase1.MetodosSetyGet;
 
 public class Persona {
-    String nombre;
-    String apellido;
-    char sexo;
-    byte edad;
+    private String nombre;
+    private String apellido;
+    private char sexo;
+    private byte edad;
 
     public String getNombre() {
         return nombre;

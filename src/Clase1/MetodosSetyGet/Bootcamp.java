@@ -1,4 +1,4 @@
-package Clase1;
+package Clase1.MetodosSetyGet;
 import javax.swing.*;
 import java.time.LocalDate;
 
@@ -17,6 +17,7 @@ public class Bootcamp {
             System.out.println("******************************************");
             switch (op) {
                 case 1 -> {
+
                     p.setNombre("Junior");
                     p.setApellido("Castillo");
                     p.setSexo('M');
