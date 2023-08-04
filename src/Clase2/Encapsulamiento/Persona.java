@@ -15,6 +15,14 @@ public class Persona {
         this.edad=35;
     }
 
+    public Persona(String nombre, String aPaterno, String aMaterno, char sexo, byte edad) {
+        this.nombre = nombre;
+        this.aPaterno = aPaterno;
+        this.aMaterno = aMaterno;
+        this.sexo = sexo;
+        this.edad = edad;
+    }
+
     public String getNombre() {
         return nombre;
     }
